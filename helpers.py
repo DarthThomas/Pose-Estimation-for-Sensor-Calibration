@@ -11,6 +11,8 @@ import numpy as np
 
 from statsmodels.stats.correlation_tools import cov_nearest
 
+_FLOAT_EPS_4 = np.finfo(float).eps * 4.0
+
 
 class Tools:
 
